@@ -117,7 +117,7 @@ public class DiskonFrame extends javax.swing.JFrame {
         jLabel4.setText("Harga Akhir: " + hasil + " Penghematan: " + penghematan);
     } catch (NumberFormatException e){
         JOptionPane.showMessageDialog(this, "Masukkan Nilai harga yang benar.",
-                "Error", JOptionPane.ERROR_MESSAGE);
+                "Error", JOptionPane.ERROR_MESSAGE); 
     }
     }//GEN-LAST:event_jButton1ActionPerformed
 
